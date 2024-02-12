@@ -1,5 +1,5 @@
 {
-    "name": "renoki-co/octane-exporter",
+    "name": "lovlyx/octane-exporter",
     "description": "Export Laravel Octane metrics using this Prometheus exporter.",
     "keywords": [
         "laravel",
@@ -11,7 +11,7 @@
         "prometheus"
     ],
     "license": "Apache-2.0",
-    "homepage": "https://github.com/renoki-co/octane-exporter",
+    "homepage": "https://github.com/lovlyx/octane-exporter",
     "authors": [
         {
             "name": "Alex Renoki",
@@ -22,7 +22,7 @@
     "require": {
         "laravel/framework": "^8.81|^9.7.0|^10.0",
         "laravel/octane": "^2.0",
-        "renoki-co/laravel-exporter-contracts": "dev-master"
+        "lovlyx/laravel-exporter-contracts": "dev-master"
     },
     "repositories": {
         "0": {
