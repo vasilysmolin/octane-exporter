@@ -22,7 +22,7 @@
     "require": {
         "laravel/framework": "^8.81|^9.7.0|^10.0",
         "laravel/octane": "^2.0",
-        "lovlyx/laravel-exporter-contracts": "dev-master"
+        "renoki-co/laravel-exporter-contracts": "dev-master"
     },
     "repositories": {
         "0": {
