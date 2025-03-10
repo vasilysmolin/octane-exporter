@@ -1,5 +1,5 @@
 {
-    "name": "lovlyx/octane-exporter",
+    "name": "spiti/octane-exporter",
     "description": "Export Laravel Octane metrics using this Prometheus exporter.",
     "keywords": [
         "laravel",
@@ -10,8 +10,8 @@
         "grafana",
         "prometheus"
     ],
-    "license": "Apache-2.0",
-    "homepage": "https://github.com/lovlyx/octane-exporter",
+    "license": "MIT",
+    "homepage": "https://github.com/vasilysmolin/octane-exporter",
     "authors": [
         {
             "name": "Alex Renoki",
@@ -20,15 +20,7 @@
         }
     ],
     "require": {
-        "laravel/framework": "^8.81|^9.7.0|^10.0",
-        "laravel/octane": "^2.0",
-        "renoki-co/laravel-exporter-contracts": "dev-master"
-    },
-    "repositories": {
-        "0": {
-            "type": "vcs",
-            "url": "https://github.com/hiddehs/laravel-exporter-contracts"
-        }
+        "renoki-co/laravel-exporter-contracts": "2.2.*"
     },
     "autoload": {
         "psr-4": {
@@ -42,12 +34,6 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
-    },
-    "require-dev": {
-        "mockery/mockery": "^1.5",
-        "orchestra/testbench": "^6.28|^7.0",
-        "orchestra/testbench-core": "^6.28|^7.0",
-        "phpunit/phpunit": "^9.5.21"
     },
     "config": {
         "sort-packages": true
